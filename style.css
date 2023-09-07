@@ -1,0 +1,37 @@
+
+* {
+    font-family: sans-serif;
+    
+}
+
+#scoreCard{
+    width: 30%;
+    background-color: lightgray;
+    height: 500px;
+}
+
+#scoreCard th{
+    width: 500px;
+    background-color: black;
+    color: white;
+}
+
+#scoreTable{
+    
+    margin: auto;
+}
+
+/* To color rows differently */
+#scoreTable tr:nth-child(even){
+    background-color: white;
+}
+
+tr{
+    height: 40px;
+    font-size: 20px;
+}
+
+/* To color rows differently */
+#scoreTable tr:nth-child(odd){
+    background-color: darkgray;
+}
