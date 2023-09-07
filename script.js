@@ -90,6 +90,8 @@ holdNumPlace.innerHTML = secondsEllapsed;
 
         // Checking vals aren't empty
         if(scoresSoFar){
+            // Sorts vals in reverse order (Useful for leaderboard) ((Better to be quick in this case))
+            scoresSoFar.sort((a,b) => a - b);
             for(let score of scoresSoFar){
 
                 // Creating new elements
